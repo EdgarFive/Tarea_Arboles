@@ -2,6 +2,8 @@ package org.example.Datos;
 
 public class nodo_Persona {
 
+    //En esta clase implementamos todos los metodos para ingresar y leer datos de los nodos. =====================================================
+
     private Persona persona;
     private nodo_Persona izquierdo;
     private nodo_Persona derecho;

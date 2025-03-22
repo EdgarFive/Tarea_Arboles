@@ -8,6 +8,7 @@ public class arbol_Persona {
         this.raiz = null;
     }
 
+    //El metodo que se ejecuta por defecto a la ora de ingresar el nodo raiz ================================
     public void insertar(Persona persona){
         if(this.raiz == null){
             this.raiz = new nodo_Persona(persona);
@@ -16,6 +17,7 @@ public class arbol_Persona {
         }
     }
 
+    // La segunda función que se ejecuta cuando ya hay un nodo raiz ============================
     private void insertar(nodo_Persona padre, Persona  persona){
         String numActual = String.valueOf(persona.getNumerotelefono());
         String numPadre = String.valueOf(padre.valornodo().getNumerotelefono());
@@ -37,6 +39,7 @@ public class arbol_Persona {
         }
     }
 
+    //función que nos sirve para comparar los números digito por digito de los numeros de telefono, diciendonos así que valor va a la izquierda o derecha =====================================
     private int compardigito(String num1, String num2){
        int longitud = Math.min(num1.length(), num2.length());
 
