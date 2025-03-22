@@ -39,9 +39,7 @@ public class nodo_Persona {
 
     public void imprimirDato() {
 
-        System.out.println("Teléfono: " + persona.getNumerotelefono() +
-                ", Nombre: " + persona.getNombre() +
-                ", Dirección: " + persona.getDireccion());
+        System.out.println("Teléfono: " + persona.getNumerotelefono() + ", Nombre: " + persona.getNombre() + ", Dirección: " + persona.getDireccion());
 
     }
 

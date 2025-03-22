@@ -36,7 +36,7 @@ public class Main {
         arbol_Persona perso = new arbol_Persona();
 
         Persona p1 = new Persona();
-        p1.setNumerotelefono(100);  // Nodo padre
+        p1.setNumerotelefono(10048273);  // Nodo padre
         p1.setNombre("Juan");
         p1.setDireccion("Calle A");
 
